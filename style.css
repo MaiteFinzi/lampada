@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.cabecalho {
+    background: rgb(46, 43, 43);
+    color: rgb(245, 245, 35);
+    text-align: center;
+    padding: 0.5%;
+
+}
+
+.cabecalho h1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.cabecalho p {
+    font-size: 0.8rem;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    height: 443px;
+
+}
+
+#lampada {
+    justify-content: center;
+    align-items: center;
+}
+
+img#lampada {
+    width: 300px;
+    height: 443px;
+}
+
+#clicar {
+    width: 15vw;
+    height: 5vh;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    background: rgba(146, 135, 135, 0.185);
+    color: gray;
+}
+
+#clicar:hover {
+    background: rgba(231, 216, 2, 0.952);
+}
+
+.rodape {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1.1%;
+    color: rgba(231, 216, 2, 0.952);
+    background: rgb(46, 43, 43);
+    font-size: 1rem;
+}
